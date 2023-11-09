@@ -1,2 +1,3 @@
 chromadb
 Flask
+sqlite3
