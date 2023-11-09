@@ -1,2 +1,2 @@
-chromadb==0.4.16
+chromadb
 Flask==2.3.2
