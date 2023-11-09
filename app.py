@@ -3,8 +3,7 @@ from flask import Flask, jsonify,request
     
 app = Flask(__name__)
 chroma_client = chromadb.Client()
-import os
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 collection = chroma_client.create_collection(name="Prompts")
 id=0
 collection.add(
